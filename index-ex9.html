@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  
+  /*  .twitter-picture{
+
+
+    width: 50px;
+    position:absolute;
+    top: 50px;
+    left:50px;
+}*/
+
+section{
+    background-color: #DAF0F7;
+    width: 20%;
+    color:black;
+    border-radius: 1px;
+    padding: 2%;
+  
+}
+section h1{
+    font-family: sans-serif;
+}
+section div label{
+    font-size: sans-serif;
+}
+section input{
+    border: none;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+    
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design pattern front</title>
+</head>
+<body>
+   <!--
+
+    <h1>Design pattern front</h1>
+    <h2 id="text-2">text 2</h2>
+    <h2 id="text-3">text 3</h2>
+    <h2 id="text-4">text 4</h2>
+    <h2 id="text-5">text 5</h2>
+    -->
+<section>
+    <h1>Donation System</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Carte bleue :</label>
+            <input type="email" id="creditcard" name="user_mail">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Montant :</label>
+            <input type="email" id="donat" name="user_mail">
+        </div>
+        <br>
+        <div class="button">
+            <button class="myButton" type="button">Valider</button>
+        </div>
+
+    </form>
+
+    <div class="errors">
+
+    </div>
+
+<br>
+    <div class="button">
+        <button class="myButton" type="submit">Afficher les derniers paiements</button>
+    </div>
+</section>
+    <script src="js/exercice9.js"></script>
+</body>
+</html>
